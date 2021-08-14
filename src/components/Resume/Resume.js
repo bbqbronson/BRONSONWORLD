@@ -101,10 +101,7 @@ export const Img = styled.img`
   padding-right: 0;
 
   @media screen and (max-width: 960px) {
-  margin-top: 0px;
-  margin-bottom: 300px;
-  margin-right: 0px;
-  margin-left: -70px;
-  padding-right: 0;
+  width: 100%;
+  margin-bottom: 500px;
   }
 `

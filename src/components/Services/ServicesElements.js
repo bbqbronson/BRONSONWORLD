@@ -53,6 +53,9 @@ export const ServicesCard = styled.div`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 768px) {
+    margin-left: 115px;
 `
 
 export const ServicesIcon = styled.img`

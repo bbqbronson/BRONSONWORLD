@@ -112,14 +112,14 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 `
 
 export const Img = styled.img`
-  width: 150%;
+  width: 100%;
   margin-top: 0;
   margin-right: 0;
   margin-left: 10px;
   padding-right: 0;
 
   @media screen and (max-width: 960px) {
-  width: 250%;
+  width: 100%;
   margin-top: 0;
   margin-bottom: 300px;
   margin-right: 0;
