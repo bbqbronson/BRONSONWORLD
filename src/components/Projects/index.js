@@ -26,7 +26,7 @@ const Projects = () => {
           <ServicesIcon src={Icon1} />
           <ServicesH2>PawPal</ServicesH2>
           <ServicesP>
-            A web application that accesses the Petfinder API database so users can search their area for adoptable pets and share with others.
+            A web application that accesses an API's database so users can search their area for adoptable pets and share with others.
             <br />
             <Link onClick={() => openInNewTab('https://github.com/CharlotteFrancis/paw-pal')}>GitHub</Link>
             ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏
