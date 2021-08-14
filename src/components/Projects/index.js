@@ -31,6 +31,7 @@ const Projects = () => {
             <Link onClick={() => openInNewTab('https://github.com/CharlotteFrancis/paw-pal')}>GitHub</Link>
             ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏
             <Link onClick={() => openInNewTab('https://paw-pal-bootcamp.herokuapp.com/')}>Deployed</Link>
+            <br />
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
@@ -42,6 +43,7 @@ const Projects = () => {
             <Link onClick={() => openInNewTab('https://github.com/CharlotteFrancis/ComicCol')}>GitHub</Link>
             ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏
             <Link onClick={() => openInNewTab('https://comiccol.herokuapp.com/')}>Deployed</Link>
+            <br />
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
@@ -53,6 +55,7 @@ const Projects = () => {
             <Link onClick={() => openInNewTab('https://github.com/bwclark90/G-Yeezy-project')}>GitHub</Link>
             ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏
             <Link onClick={() => openInNewTab('https://bwclark90.github.io/G-Yeezy-project/index.html')}>Deployed</Link>
+            <br />
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
