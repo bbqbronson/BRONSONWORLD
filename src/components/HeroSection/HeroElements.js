@@ -132,6 +132,7 @@ export const Img = styled.img`
     margin-left: 50px;
     padding: 50px;
   }
+
   @media screen and (max-width: 375px) {
   width: 100%;
   margin-top: 0;

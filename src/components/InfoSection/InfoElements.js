@@ -105,4 +105,13 @@ export const Img = styled.img`
   }
   @media screen and (max-width: 768px) {
     width: 90%;
+  }
+  @media screen and (min-width: 1024px){
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  margin-right: 40px;
+  margin-left: 10px;
+  padding-right: 0;
+  }
 `

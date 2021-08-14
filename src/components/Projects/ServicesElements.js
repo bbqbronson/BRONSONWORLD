@@ -34,6 +34,15 @@ export const ServicesWrapper = styled.div`
     grid-template-columns: 1fr;
     padding: 0 20px;
   }
+
+   @media screen and (min-width: 1024px){
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  margin-left: 10px;
+  padding: 10px
+  padding-right: 0;
+  }
   
 `
 

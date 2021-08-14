@@ -104,4 +104,11 @@ export const Img = styled.img`
   width: 100%;
   margin-bottom: 500px;
   }
+  @media screen and (min-width: 1024px){
+  width: 150%;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  margin-left: -200px;
+  padding-right: 0;
+  }
 `
