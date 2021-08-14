@@ -34,6 +34,7 @@ export const ServicesWrapper = styled.div`
     grid-template-columns: 1fr;
     padding: 0 20px;
   }
+  
 `
 
 export const ServicesCard = styled.div`
@@ -72,6 +73,10 @@ export const ServicesH1 = styled.h1`
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: -5px;
+    padding: 50px;
 `
 
 export const ServicesH2 = styled.h2`

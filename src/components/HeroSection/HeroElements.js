@@ -118,7 +118,7 @@ export const Img = styled.img`
   margin-left: 10px;
   padding-right: 0;
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 768px) {
   width: 100%;
   margin-top: 0;
   margin-bottom: 300px;
@@ -126,4 +126,19 @@ export const Img = styled.img`
   margin-left: 10px;
   padding-right: 0;
   }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: -5px;
+    margin-left: 50px;
+    padding: 50px;
+  }
+  @media screen and (max-width: 375px) {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 300px;
+  margin-right: 40px;
+  margin-left: 10px;
+  padding-right: 0;
+  }
+
 `
