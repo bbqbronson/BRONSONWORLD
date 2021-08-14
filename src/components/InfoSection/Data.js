@@ -6,7 +6,7 @@ export const homeObjOne = {
   topLine: 'About Me',
   headline: 'Bronson Perez',
   description:
-    'I am a full stack developer who loves combining the frictionless design features of a UI/UX front end and the data in the back end. I recently earned a certificate in full stack development from UCI, and only a drop of my pool of knowledge consists of JavaScript, React.js, and MongoDB. I have worked on teams to make the best user experience possible and have a modern design as well. My passion is to use my skills to build software/websites for the people.',
+    'I am a full stack developer who loves combining the frictionless design features of a UI/UX front end and the data in the back end. I recently earned a certificate in full stack development from UCI. I have worked on teams to make the best user experience possible and have a modern design as well. My passion is to use my skills to build software/websites for the everyday person.',
   buttonLabel: 'Checkout My Linkedin',
   imgStart: false,
   img: require('../../images/guts.png'),
