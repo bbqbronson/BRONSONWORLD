@@ -24,7 +24,7 @@ const Projects = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>PawlPal</ServicesH2>
+          <ServicesH2>PawPal</ServicesH2>
           <ServicesP>
             A web application that accesses the Petfinder API database so users can search their area for adoptable pets and share with others.
             <br />
@@ -48,7 +48,7 @@ const Projects = () => {
           <ServicesIcon src={Icon3} />
           <ServicesH2>G-Yeezy Game Search</ServicesH2>
           <ServicesP>
-            A web application that uses multiple API's to search for games and get a detailed decriptiong of the game.
+            A web application that uses multiple API's to search for games and get a detailed decription of the game.
             <br />
             <Link onClick={() => openInNewTab('https://github.com/bwclark90/G-Yeezy-project')}>GitHub</Link>
             ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏
