@@ -1,21 +1,15 @@
 import React from 'react'
 import {
-  FaFacebook,
   FaInstagram,
   FaYoutube,
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa'
-import GitHubIcon from '@material-ui/icons/GitHub';
+import GitHubIcon from '@material-ui/icons/GitHub'
 import { animateScroll as scroll } from 'react-scroll'
 import {
   FooterContainer,
   FooterWrap,
-  FooterLinksContainer,
-  FooterLinksWrapper,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
@@ -27,10 +21,10 @@ import {
 const Footer = () => {
   const toggleHome = () => {
     scroll.scrollToTop()
-  };
+  }
   return (
     <FooterContainer>
-      <FooterWrap>      
+      <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
@@ -67,6 +61,6 @@ const Footer = () => {
       </FooterWrap>
     </FooterContainer>
   )
-};
+}
 
 export default Footer

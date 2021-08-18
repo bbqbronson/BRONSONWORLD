@@ -1,6 +1,4 @@
-import React, { useState } from 'react'
-import { Button } from '../ButtonElements'
-
+import React from 'react'
 import Video from '../../videos/SpaceFlightLoop.mp4'
 import Image from '../../images/picture.png'
 import {
@@ -8,20 +6,10 @@ import {
   HeroBg,
   VideoBg,
   HeroContent,
-  HeroH1,
-  HeroP,
-  HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight,
   Img
 } from './HeroElements'
 
 function HeroSection () {
-  const [hover, setHover] = useState(false)
-
-  const onHover = () => {
-    setHover(!hover)
-  };
   return (
     <HeroContainer id='home'>
       <HeroBg>
