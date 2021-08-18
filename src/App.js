@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pages';
-import SigninPage from './pages/signin';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Home from './pages'
+import SigninPage from './pages/signin'
 
-function App() {
+function App () {
   return (
     <Router>
       <Switch>
@@ -13,7 +13,7 @@ function App() {
         <Route path='/emailme' component={SigninPage} exact />
       </Switch>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
