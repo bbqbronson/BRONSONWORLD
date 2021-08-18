@@ -1,11 +1,5 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
-import Link from 'react-router-dom/'
-
-// import { pdf } from '@react-pdf/renderer'
-// import { saveAs } from 'file-saver'
-// import { DocumentPdf, getProps } from './document-pdf'
-
 import {
   InfoContainer,
   InfoWrapper,
@@ -56,9 +50,6 @@ const InfoSection = ({
                 <BtnWrap>
                   <Button
                     onClick={() => openInNewTab(direction)}
-                    // href=''
-                    // download='BronsonPerezResume(1).pdf'
-                    // smooth
                     duration={500}
                     spy
                     exact='true'

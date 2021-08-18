@@ -5,8 +5,6 @@ export const homeObjThree = {
   lightTextDesc: false,
   topLine: 'My Resume',
   headline: 'Click the button to download my resume',
-  // description:
-  //   'Click the "Download" button to download my resume.',
   buttonLabel: 'Download',
   imgStart: false,
   img: require('../../images/resume.png'),
