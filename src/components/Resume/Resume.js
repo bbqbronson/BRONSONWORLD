@@ -111,4 +111,7 @@ export const Img = styled.img`
   margin-left: -200px;
   padding-right: 0;
   }
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
 `

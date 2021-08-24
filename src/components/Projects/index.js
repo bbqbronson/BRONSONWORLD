@@ -2,6 +2,7 @@ import React from 'react'
 import Icon1 from '../../images/pawpal.jpg'
 import Icon2 from '../../images/comiccol.jpg'
 import Icon3 from '../../images/yeezy.jpg'
+import Icon4 from '../../images/flappybird.png'
 import Link from 'react-router-dom/Link'
 import {
   ServicesContainer,
@@ -55,6 +56,16 @@ const Projects = () => {
             <Link onClick={() => openInNewTab('https://github.com/bwclark90/G-Yeezy-project')}>GitHub</Link>
             ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏
             <Link onClick={() => openInNewTab('https://bwclark90.github.io/G-Yeezy-project/index.html')}>Deployed</Link>
+            <br />
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Icon4} />
+          <ServicesH2>Java Flappy Bird</ServicesH2>
+          <ServicesP>
+            Simple Flappy Bird game made using Java.
+            <br />
+            <Link onClick={() => openInNewTab('https://github.com/bronsonsoda/flappybirdjava')}>GitHub</Link>
             <br />
           </ServicesP>
         </ServicesCard>
