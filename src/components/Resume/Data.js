@@ -12,5 +12,5 @@ export const homeObjThree = {
   dark: false,
   primary: false,
   darkText: true,
-  direction: 'https://docs.google.com/document/d/1cCpgdmNyDdpbfQPIYO2RcKXAT4bANbCdkFILDU1knZE/export?format=pdf'
+  direction: 'https://docs.google.com/document/d/1fVIYs_J8YK0fStvyP0PKbL4qGXmVf2dFVh1uHGWJI8Q/export?format=pdf'
 }
